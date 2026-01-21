@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author reroes﻿​_
  */
-public class Ejemplo05 {
+public class Ejemplo052 {
     
     public static void main(String[] args) {
         int resultado = 0;
@@ -23,6 +23,8 @@ public class Ejemplo05 {
             System.out.println("Ingrese valor 2:"); // 4
             int valor2 = entrada.nextInt(); // se espera un valor entero // 0
             resultado = valor1 / valor2; // 5
+            System.out.printf("Resultado %.2f\n", resultado);
+
         
             
         }
@@ -37,7 +39,7 @@ public class Ejemplo05 {
         
         }
         
-        System.out.printf("Resultado %d\n", resultado);
+        System.out.printf("Resultado %.2f\n", resultado);
         System.out.println("Continuamos");
         
                

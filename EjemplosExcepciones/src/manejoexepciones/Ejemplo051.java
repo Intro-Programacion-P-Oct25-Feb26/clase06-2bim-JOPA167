@@ -28,6 +28,11 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+                /*
+                Dentro de las lineas de codigo, estamos usando un while para evitar
+                que el prorama finalice sin cumplor su funcion, atraves del uso
+                de bandera y en caso de que salgan errores usamos un try catch
+                */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",

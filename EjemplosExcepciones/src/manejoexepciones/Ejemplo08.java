@@ -28,7 +28,11 @@ public class Ejemplo08 {
         catch(Exception e){
             
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
-        
+        /*
+            El catch al final es un linea de codigo que puede englobar todos
+            los errores, esto se lo puede usar cuando no tenemos particularidades
+            por hacer en cada error
+            */
         }
         
         
